@@ -30,7 +30,7 @@ if (process.env.NODE_ENV === 'development') {
     const printedTypeDefs = print(typeDefs)
     console.log(printedTypeDefs)
     console.log('\n=== GraphQL Schema End ===\n')
-    
+
 }
 
 const resolvers = mergeResolvers(loadedResolvers)
